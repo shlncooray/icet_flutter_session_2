@@ -1,5 +1,3 @@
-# role_dice_test
-
 A new Flutter project.
 
 ## Getting Started
