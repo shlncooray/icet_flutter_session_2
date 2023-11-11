@@ -1,3 +1,10 @@
+/// Flutter Course - Session 2
+/// Date: 11th November 2023
+/// Auther: Shelan Cooray
+/// Email: shlncooray@gmail.com
+/// roller_dice.dart - StatefullWidget which responsible for display Roller Dice images & Generate random dice images
+/// based on user click event
+
 import 'dart:math';
 
 import 'package:flutter/material.dart';
