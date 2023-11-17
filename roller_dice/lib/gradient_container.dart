@@ -5,7 +5,7 @@
 /// gradient_container.dart - Body Container of the application
 
 import 'package:flutter/material.dart';
-import 'package:role_dice_test/roller_dice.dart';
+import 'package:role_dice_test/new_game.dart';
 
 const beginAlignment = Alignment.topLeft;
 const endAlignment = Alignment.bottomRight;
@@ -17,9 +17,10 @@ class GradientContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        decoration: BoxDecoration(
-            gradient: LinearGradient(
-                colors: colors, begin: beginAlignment, end: endAlignment)),
-        child: const Center(child: RollerDice()));
+      decoration: BoxDecoration(
+          gradient: LinearGradient(
+              colors: colors, begin: beginAlignment, end: endAlignment)),
+      child: const Center(child: NewGame()),
+    );
   }
 }
